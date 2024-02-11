@@ -44,21 +44,6 @@ export default function Detalles() {
       </div>
     );
   }
-  //     try {
-  //       const apiUrl = `https://pokeapi.co/api/v2/pokemon/${id}`;
-  //       const res = await fetch(apiUrl);
-  //       const data = await res.json();
-  //       setPokemon(data);
-  //       console.log(data["stats"][1].base_stat);
-
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   }
-
-  //   useEffect(() => {
-  //     peticionPokemon();
-  //   }, [id]);
   return (
     <>
     <div className="container">
@@ -77,17 +62,6 @@ export default function Detalles() {
         </div>
       </ul>
     </div>
-      {/* <ul>
-        {pokemon.map(({stats, id}) => (
-            <div className="imagen" key={id}>
-                <h1>{["stats"][1].base_stat}</h1>
-                <h1>{["stats"][1].stat.name}</h1>
-
-            </div>
-          ))}
-          ;
-
-      </ul> */}
     </>
   );
 }
